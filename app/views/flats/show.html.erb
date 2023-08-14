@@ -1,0 +1,8 @@
+<h1>Flat</h1>
+
+<h3><%= @flat["name"]%>
+    (<%= @flat["price"] %> <%= @flat["priceCurrency"] %>)</h3>
+
+    <%= image_tag @flat["imageUrl"], width: "800px" %>
+
+<%= link_to "See all flats", root_path %>
